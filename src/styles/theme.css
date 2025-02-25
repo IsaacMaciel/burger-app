@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/roboto-v47-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/roboto-v47-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/roboto-v47-latin-700.woff2') format('woff2');
+}
+
+:root {
+  --color-primary: #4F372F;
+  --color-gray-lightest: #EEEEEE;
+  --color-white: #FFFFFF;
+  
+  --color-background-light: #F8F9FA;
+  
+  --color-text-primary: #464646;
+  --color-text-dark: #121212;
+  --color-text-muted: #000000A6;
+}
